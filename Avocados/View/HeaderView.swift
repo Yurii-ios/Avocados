@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HeaderView: View {
     //MARK: - PROPERTIES
-    @StatePrivate var showheadline: Bool = false
+    @State private var showheadline: Bool = false
     
     
     
