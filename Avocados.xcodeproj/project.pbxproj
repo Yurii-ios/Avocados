@@ -22,6 +22,7 @@
 		F166C30225AB9E9500FFC1FD /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F166C30125AB9E9500FFC1FD /* HeaderData.swift */; };
 		F166C30525ABAF1600FFC1FD /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F166C30425ABAF1600FFC1FD /* DishesView.swift */; };
 		F19F8B3625D1F5060050B254 /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F8B3525D1F5060050B254 /* FactsView.swift */; };
+		F19F8B3925D1FE270050B254 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F8B3825D1FE270050B254 /* FactModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		F166C30125AB9E9500FFC1FD /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 		F166C30425ABAF1600FFC1FD /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
 		F19F8B3525D1F5060050B254 /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
+		F19F8B3825D1FE270050B254 /* FactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				F166C2FE25AB98A800FFC1FD /* HeaderModel.swift */,
+				F19F8B3825D1FE270050B254 /* FactModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			files = (
 				F14E6AFE25A8E92C00C4774E /* AvocadosView.swift in Sources */,
 				F166C2FF25AB98A800FFC1FD /* HeaderModel.swift in Sources */,
+				F19F8B3925D1FE270050B254 /* FactModel.swift in Sources */,
 				F14E6B0225A8E98C00C4774E /* RipeningStagesView.swift in Sources */,
 				F14E6AE525A8C19F00C4774E /* AppDelegate.swift in Sources */,
 				F14E6B0825A8EA1300C4774E /* AppView.swift in Sources */,
