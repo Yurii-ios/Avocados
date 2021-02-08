@@ -23,6 +23,7 @@
 		F166C30525ABAF1600FFC1FD /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F166C30425ABAF1600FFC1FD /* DishesView.swift */; };
 		F19F8B3625D1F5060050B254 /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F8B3525D1F5060050B254 /* FactsView.swift */; };
 		F19F8B3925D1FE270050B254 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F8B3825D1FE270050B254 /* FactModel.swift */; };
+		F19F8B3C25D1FEEC0050B254 /* FactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F8B3B25D1FEEC0050B254 /* FactData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		F166C30425ABAF1600FFC1FD /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
 		F19F8B3525D1F5060050B254 /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
 		F19F8B3825D1FE270050B254 /* FactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		F19F8B3B25D1FEEC0050B254 /* FactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				F166C30125AB9E9500FFC1FD /* HeaderData.swift */,
+				F19F8B3B25D1FEEC0050B254 /* FactData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				F14E6B0525A8E9D300C4774E /* SettingsView.swift in Sources */,
 				F14E6AE725A8C19F00C4774E /* SceneDelegate.swift in Sources */,
 				F14E6AE925A8C19F00C4774E /* ContentView.swift in Sources */,
+				F19F8B3C25D1FEEC0050B254 /* FactData.swift in Sources */,
 				F166C30525ABAF1600FFC1FD /* DishesView.swift in Sources */,
 				F166C30225AB9E9500FFC1FD /* HeaderData.swift in Sources */,
 				F19F8B3625D1F5060050B254 /* FactsView.swift in Sources */,
