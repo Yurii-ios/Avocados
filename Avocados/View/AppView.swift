@@ -12,8 +12,30 @@ struct AppView: View {
     
     //MARK: - BODY
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+        TabView {
+            AvocadosView()
+                .tabItem {
+                    Image("tabicon-branch")
+                    Text("Avocados")
+                }
+            ContentView()
+                .tabItem {
+                    Image("tabicon-book")
+                    Text("Recepies")
+                }
+            RipeningStagesView()
+                .tabItem {
+                    Image("tabicon-avocado")
+                    Text("Ripening")
+                }
+            SettingsView()
+                .tabItem {
+                    Image("tabicon-settings")
+                    Text("Settings")
+        }
+    } //: TABVIEW
+    .accentColor(Color.primary)
+}
 }
 
 //MARK: - PREVIEW

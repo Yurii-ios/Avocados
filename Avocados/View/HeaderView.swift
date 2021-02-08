@@ -32,7 +32,7 @@ struct HeaderView: View {
                     .fill(Color("ColorGreenLight"))
                     .frame(width: 4)
                 
-                VStack {
+                VStack(alignment: .leading, spacing: 0) {
                     Text(header.headline)
                         .font(.system(.title, design: .serif))
                         .fontWeight(.bold)
@@ -41,7 +41,7 @@ struct HeaderView: View {
                     
                     Text(header.subheadline)
                         .font(.footnote)
-                        .lineLimit(/*@START_MENU_TOKEN@*/2/*@END_MENU_TOKEN@*/)
+                        .lineLimit(2)
                         .multilineTextAlignment(.leading)
                         .foregroundColor(.white)
                         .shadow(radius: 3)
@@ -52,7 +52,7 @@ struct HeaderView: View {
                 .background(Color("ColorBlackTransparentLight"))
             } //: HStack
             .frame(width: 285, height: 105, alignment: .center)
-            .offset(x: -66, y: showheadline ? 75 : 220)
+            .offset(x: -30, y: showheadline ? 75 : 220)
             .animation(slideInAnimation)
             .onAppear(perform: {
                 showheadline.toggle()
@@ -66,7 +66,8 @@ struct HeaderView: View {
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
         HeaderView(header: headersData[1])
-            .previewLayout(.sizeThatFits).environment(\.colorScheme, .dark)
+          .previewLayout(.sizeThatFits)
+          .environment(\.colorScheme, .dark)
         
     }
 }

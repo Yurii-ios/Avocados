@@ -20,6 +20,7 @@
 		F166C2FC25AB828800FFC1FD /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F166C2FB25AB828800FFC1FD /* HeaderView.swift */; };
 		F166C2FF25AB98A800FFC1FD /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F166C2FE25AB98A800FFC1FD /* HeaderModel.swift */; };
 		F166C30225AB9E9500FFC1FD /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F166C30125AB9E9500FFC1FD /* HeaderData.swift */; };
+		F166C30525ABAF1600FFC1FD /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F166C30425ABAF1600FFC1FD /* DishesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		F166C2FB25AB828800FFC1FD /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		F166C2FE25AB98A800FFC1FD /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
 		F166C30125AB9E9500FFC1FD /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
+		F166C30425ABAF1600FFC1FD /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				F14E6B0125A8E98C00C4774E /* RipeningStagesView.swift */,
 				F14E6B0425A8E9D300C4774E /* SettingsView.swift */,
 				F14E6B0725A8EA1300C4774E /* AppView.swift */,
+				F166C30425ABAF1600FFC1FD /* DishesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				F14E6B0525A8E9D300C4774E /* SettingsView.swift in Sources */,
 				F14E6AE725A8C19F00C4774E /* SceneDelegate.swift in Sources */,
 				F14E6AE925A8C19F00C4774E /* ContentView.swift in Sources */,
+				F166C30525ABAF1600FFC1FD /* DishesView.swift in Sources */,
 				F166C30225AB9E9500FFC1FD /* HeaderData.swift in Sources */,
 				F166C2FC25AB828800FFC1FD /* HeaderView.swift in Sources */,
 			);
