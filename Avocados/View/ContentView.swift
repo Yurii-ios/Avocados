@@ -13,7 +13,7 @@ struct ContentView: View {
   // MARK: - PROPERTIES
   
   var headers: [HeaderModel]  = headersData
-  //var facts: [Fact] = factsData
+  var facts: [FactModel] = factsData
  // var recipes: [Recipe] = recipesData
   
   var body: some View {
@@ -46,9 +46,9 @@ struct ContentView: View {
         
         ScrollView(.horizontal, showsIndicators: false) {
           HStack(alignment: .top, spacing: 60) {
-           // ForEach(facts) { item in
-            //  FactsView(fact: item)
-           // }
+           ForEach(facts) { item in
+              FactsView(fact: item)
+            }
           }
           .padding(.vertical)
           .padding(.leading, 60)
