@@ -12,7 +12,7 @@ struct ContentView: View {
   
   var headers: [HeaderModel]  = headersData
   var facts: [FactModel] = factsData
- // var recipes: [Recipe] = recipesData
+  var recipes: [RecipeModel] = recipesData
   
   var body: some View {
     ScrollView(.vertical, showsIndicators: false) {
@@ -60,9 +60,9 @@ struct ContentView: View {
           .modifier(TitleModifier())
         
         VStack(alignment: .center, spacing: 20) {
-          //ForEach(recipes) { item in
-           // RecipeCardView(recipe: item)
-         // }
+          ForEach(recipes) { item in
+           RecipeCardView(recipe: item)
+         }
         }
         .frame(maxWidth: 640)
         .padding(.horizontal)
